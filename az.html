@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Assault Zone 3D</title>
+    <link rel="shortcut icon" href="https://html5.gamemonetize.com/fpuggug8uub3hgbg33o1tkt8r47yebiu/TemplateData/favicon.ico">
+    <link rel="stylesheet" href="https://html5.gamemonetize.com/fpuggug8uub3hgbg33o1tkt8r47yebiu/TemplateData/style.css">
+    <script src="https://html5.gamemonetize.com/fpuggug8uub3hgbg33o1tkt8r47yebiu/TemplateData/UnityProgress.js"></script>
+    <script src="https://html5.gamemonetize.com/fpuggug8uub3hgbg33o1tkt8r47yebiu/Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/AssaultZone3D.json", {onProgress: UnityProgress});
+    </script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-22342610-8"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-22342610-8');
+	</script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 800px; height: 600px"></div>
+      <div class="footer">
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">Assault Zone 3D</div>
+      </div>
+    </div>
+  </body>
+</html>
